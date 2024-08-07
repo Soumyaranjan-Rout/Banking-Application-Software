@@ -11,4 +11,4 @@ COPY target/*.jar /app/app1.jar
 EXPOSE 8080
 
 # Define the command to run the JAR file
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "app1.jar"]
